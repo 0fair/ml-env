@@ -3,8 +3,8 @@ ARG ROOT_CONTAINER=ubuntu:focal-20210416@sha256:86ac87f73641c920fb42cc9612d4fb57
 FROM $ROOT_CONTAINER
 
 USER root
-ENV JUPYTER_TOKEN=
-ENV JUPYTER_PASS=
+ENV JUPYTER_TOKEN=0000
+ENV JUPYTER_PASS=0000
 ENV JUPYTER_IP=0.0.0.0
 ENV JUPYTER_PORT=8888
 ENV JUPYTER_ENABLE_LAB=yes
@@ -34,7 +34,7 @@ WORKDIR /work
 CMD jupyter notebook \
     --ip=${JUPYTER_IP} \
     --port=${JUPYTER_PORT} \
-    --NotebookApp.token=${JUPYTER_TOKEN} \
-    --NotebookApp.password=${JUPYTER_PASS} \
+    --NotebookApp.token='' \
+    --NotebookApp.password='' \
     --allow-root --no-browser
 
