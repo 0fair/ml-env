@@ -1,0 +1,150 @@
+2022-02-20 23:53:20,823 INFO    MainThread:77327 [internal.py:wandb_internal():89] W&B internal server running at pid: 77327, started at: 2022-02-20 23:53:20.823217
+2022-02-20 23:53:20,824 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: check_version
+2022-02-20 23:53:20,824 INFO    WriterThread:77327 [datastore.py:open_for_write():77] open: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/run-dit825yu.wandb
+2022-02-20 23:53:20,827 DEBUG   SenderThread:77327 [sender.py:send():235] send: header
+2022-02-20 23:53:20,828 DEBUG   SenderThread:77327 [sender.py:send_request():249] send_request: check_version
+2022-02-20 23:53:21,039 DEBUG   SenderThread:77327 [sender.py:send():235] send: run
+2022-02-20 23:53:21,086 INFO    SenderThread:77327 [dir_watcher.py:__init__():169] watching files in: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files
+2022-02-20 23:53:21,086 INFO    SenderThread:77327 [sender.py:_start_run_threads():809] run started: dit825yu with start time 1645390399
+2022-02-20 23:53:21,086 DEBUG   SenderThread:77327 [sender.py:send():235] send: summary
+2022-02-20 23:53:21,087 INFO    SenderThread:77327 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-20 23:53:21,089 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: run_start
+2022-02-20 23:53:21,090 DEBUG   HandlerThread:77327 [meta.py:__init__():36] meta init
+2022-02-20 23:53:21,090 DEBUG   HandlerThread:77327 [meta.py:__init__():50] meta init done
+2022-02-20 23:53:21,090 DEBUG   HandlerThread:77327 [meta.py:probe():210] probe
+2022-02-20 23:53:21,097 DEBUG   HandlerThread:77327 [meta.py:_setup_git():200] setup git
+2022-02-20 23:53:21,125 DEBUG   HandlerThread:77327 [meta.py:_setup_git():207] setup git done
+2022-02-20 23:53:21,125 DEBUG   HandlerThread:77327 [meta.py:_save_code():88] save code
+2022-02-20 23:53:21,126 WARNING HandlerThread:77327 [meta.py:_save_code():90] unable to save code -- program entry not found
+2022-02-20 23:53:21,126 DEBUG   HandlerThread:77327 [meta.py:_save_patches():126] save patches
+2022-02-20 23:53:21,209 DEBUG   HandlerThread:77327 [meta.py:_save_patches():168] save patches done
+2022-02-20 23:53:21,210 DEBUG   HandlerThread:77327 [meta.py:_save_pip():54] save pip
+2022-02-20 23:53:21,210 DEBUG   HandlerThread:77327 [meta.py:_save_pip():68] save pip done
+2022-02-20 23:53:21,210 DEBUG   HandlerThread:77327 [meta.py:probe():248] probe done
+2022-02-20 23:53:21,216 DEBUG   SenderThread:77327 [sender.py:send():235] send: files
+2022-02-20 23:53:21,216 INFO    SenderThread:77327 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-02-20 23:53:21,216 INFO    SenderThread:77327 [sender.py:_save_file():944] saving file diff.patch with policy now
+2022-02-20 23:53:21,221 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-20 23:53:21,222 DEBUG   SenderThread:77327 [sender.py:send_request():249] send_request: stop_status
+2022-02-20 23:53:21,283 INFO    Thread-11 :77327 [upload_job.py:push():137] Uploaded file /var/folders/qj/dzmgfs4103qd2st0jmk77psm0000gn/T/tmp6bk6cdtywandb/2r748sf5-wandb-metadata.json
+2022-02-20 23:53:21,284 INFO    Thread-12 :77327 [upload_job.py:push():137] Uploaded file /var/folders/qj/dzmgfs4103qd2st0jmk77psm0000gn/T/tmp6bk6cdtywandb/30lldksf-diff.patch
+2022-02-20 23:53:22,067 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: log_artifact
+2022-02-20 23:53:22,067 DEBUG   SenderThread:77327 [sender.py:send_request():249] send_request: log_artifact
+2022-02-20 23:53:22,092 INFO    Thread-8  :77327 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/output.log
+2022-02-20 23:53:22,092 INFO    Thread-8  :77327 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/wandb-summary.json
+2022-02-20 23:53:22,092 INFO    Thread-8  :77327 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/requirements.txt
+2022-02-20 23:53:22,092 INFO    Thread-8  :77327 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/wandb-metadata.json
+2022-02-20 23:53:22,093 INFO    Thread-8  :77327 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/diff.patch
+2022-02-20 23:53:22,268 INFO    Thread-14 :77327 [upload_job.py:push():95] Uploaded file /Users/den/.cache/wandb/artifacts/obj/md5/8f/7bb12ff9a434f1d0444cb8087f0f54
+2022-02-20 23:53:22,394 INFO    SenderThread:77327 [sender.py:send_request_log_artifact():973] logged artifact run-dit825yu-processed_dataset - {'id': 'QXJ0aWZhY3Q6Ng==', 'digest': '74fd3b2c2d449a42be2cf7a395f4ca43', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjM=', 'latestArtifact': None}, 'version': 'latest'}
+2022-02-20 23:53:22,394 DEBUG   SenderThread:77327 [sender.py:send():235] send: files
+2022-02-20 23:53:22,395 INFO    SenderThread:77327 [sender.py:_save_file():944] saving file media/table/processed_dataset_0_d800fe75de91a990d5f6.table.json with policy now
+2022-02-20 23:53:22,443 DEBUG   SenderThread:77327 [sender.py:send():235] send: history
+2022-02-20 23:53:22,443 DEBUG   SenderThread:77327 [sender.py:send():235] send: summary
+2022-02-20 23:53:22,443 INFO    SenderThread:77327 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-20 23:53:22,469 INFO    Thread-15 :77327 [upload_job.py:push():137] Uploaded file /var/folders/qj/dzmgfs4103qd2st0jmk77psm0000gn/T/tmp6bk6cdtywandb/3thepw2t-media/table/processed_dataset_0_d800fe75de91a990d5f6.table.json
+2022-02-20 23:53:22,487 DEBUG   SenderThread:77327 [sender.py:send():235] send: config
+2022-02-20 23:53:22,750 DEBUG   SenderThread:77327 [sender.py:send():235] send: telemetry
+2022-02-20 23:53:22,751 DEBUG   SenderThread:77327 [sender.py:send():235] send: exit
+2022-02-20 23:53:22,751 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-20 23:53:22,751 INFO    SenderThread:77327 [sender.py:send_exit():371] handling exit code: 0
+2022-02-20 23:53:22,752 INFO    SenderThread:77327 [sender.py:send_exit():373] handling runtime: 1
+2022-02-20 23:53:22,752 INFO    SenderThread:77327 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-20 23:53:22,752 INFO    SenderThread:77327 [sender.py:send_exit():379] send defer
+2022-02-20 23:53:22,752 DEBUG   SenderThread:77327 [sender.py:send_request():249] send_request: poll_exit
+2022-02-20 23:53:22,753 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: defer
+2022-02-20 23:53:22,753 INFO    HandlerThread:77327 [handler.py:handle_request_defer():154] handle defer: 0
+2022-02-20 23:53:22,753 DEBUG   SenderThread:77327 [sender.py:send_request():249] send_request: defer
+2022-02-20 23:53:22,753 INFO    SenderThread:77327 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-02-20 23:53:22,753 INFO    SenderThread:77327 [sender.py:transition_state():392] send defer: 1
+2022-02-20 23:53:22,753 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: defer
+2022-02-20 23:53:22,753 INFO    HandlerThread:77327 [handler.py:handle_request_defer():154] handle defer: 1
+2022-02-20 23:53:22,841 DEBUG   SenderThread:77327 [sender.py:send_request():249] send_request: defer
+2022-02-20 23:53:22,842 INFO    SenderThread:77327 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-02-20 23:53:22,842 INFO    SenderThread:77327 [sender.py:transition_state():392] send defer: 2
+2022-02-20 23:53:22,842 DEBUG   SenderThread:77327 [sender.py:send():235] send: stats
+2022-02-20 23:53:22,842 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: defer
+2022-02-20 23:53:22,842 INFO    HandlerThread:77327 [handler.py:handle_request_defer():154] handle defer: 2
+2022-02-20 23:53:22,842 DEBUG   SenderThread:77327 [sender.py:send_request():249] send_request: defer
+2022-02-20 23:53:22,842 INFO    SenderThread:77327 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-02-20 23:53:22,842 INFO    SenderThread:77327 [sender.py:transition_state():392] send defer: 3
+2022-02-20 23:53:22,843 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: defer
+2022-02-20 23:53:22,843 INFO    HandlerThread:77327 [handler.py:handle_request_defer():154] handle defer: 3
+2022-02-20 23:53:22,843 DEBUG   SenderThread:77327 [sender.py:send():235] send: summary
+2022-02-20 23:53:22,843 INFO    SenderThread:77327 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-20 23:53:22,843 DEBUG   SenderThread:77327 [sender.py:send_request():249] send_request: defer
+2022-02-20 23:53:22,843 INFO    SenderThread:77327 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-02-20 23:53:22,844 INFO    SenderThread:77327 [sender.py:transition_state():392] send defer: 4
+2022-02-20 23:53:22,844 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: defer
+2022-02-20 23:53:22,844 INFO    HandlerThread:77327 [handler.py:handle_request_defer():154] handle defer: 4
+2022-02-20 23:53:22,844 DEBUG   SenderThread:77327 [sender.py:send_request():249] send_request: defer
+2022-02-20 23:53:22,844 INFO    SenderThread:77327 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-02-20 23:53:22,861 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-20 23:53:22,866 INFO    SenderThread:77327 [sender.py:transition_state():392] send defer: 5
+2022-02-20 23:53:22,867 DEBUG   SenderThread:77327 [sender.py:send_request():249] send_request: poll_exit
+2022-02-20 23:53:22,867 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: defer
+2022-02-20 23:53:22,867 INFO    HandlerThread:77327 [handler.py:handle_request_defer():154] handle defer: 5
+2022-02-20 23:53:22,867 DEBUG   SenderThread:77327 [sender.py:send_request():249] send_request: defer
+2022-02-20 23:53:22,867 INFO    SenderThread:77327 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-02-20 23:53:22,867 INFO    SenderThread:77327 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-20 23:53:22,971 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-20 23:53:23,095 INFO    Thread-8  :77327 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/config.yaml
+2022-02-20 23:53:23,095 INFO    SenderThread:77327 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/wandb-summary.json
+2022-02-20 23:53:23,095 INFO    SenderThread:77327 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/media/table/processed_dataset_0_d800fe75de91a990d5f6.table.json
+2022-02-20 23:53:23,095 INFO    SenderThread:77327 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/code/_session_history.ipynb
+2022-02-20 23:53:23,096 INFO    SenderThread:77327 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/media/table
+2022-02-20 23:53:23,096 INFO    SenderThread:77327 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/media
+2022-02-20 23:53:23,096 INFO    SenderThread:77327 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/code
+2022-02-20 23:53:23,096 INFO    SenderThread:77327 [dir_watcher.py:finish():313] scan: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files
+2022-02-20 23:53:23,096 INFO    SenderThread:77327 [dir_watcher.py:finish():327] scan save: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/diff.patch diff.patch
+2022-02-20 23:53:23,096 INFO    SenderThread:77327 [dir_watcher.py:finish():327] scan save: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/requirements.txt requirements.txt
+2022-02-20 23:53:23,096 INFO    SenderThread:77327 [dir_watcher.py:finish():327] scan save: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/output.log output.log
+2022-02-20 23:53:23,099 INFO    SenderThread:77327 [dir_watcher.py:finish():327] scan save: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/config.yaml config.yaml
+2022-02-20 23:53:23,099 INFO    SenderThread:77327 [dir_watcher.py:finish():327] scan save: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/wandb-summary.json wandb-summary.json
+2022-02-20 23:53:23,100 INFO    SenderThread:77327 [dir_watcher.py:finish():327] scan save: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/wandb-metadata.json wandb-metadata.json
+2022-02-20 23:53:23,103 INFO    SenderThread:77327 [dir_watcher.py:finish():327] scan save: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/code/_session_history.ipynb code/_session_history.ipynb
+2022-02-20 23:53:23,107 INFO    SenderThread:77327 [dir_watcher.py:finish():327] scan save: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/media/table/processed_dataset_0_d800fe75de91a990d5f6.table.json media/table/processed_dataset_0_d800fe75de91a990d5f6.table.json
+2022-02-20 23:53:23,107 INFO    SenderThread:77327 [sender.py:transition_state():392] send defer: 6
+2022-02-20 23:53:23,107 DEBUG   SenderThread:77327 [sender.py:send_request():249] send_request: poll_exit
+2022-02-20 23:53:23,107 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: defer
+2022-02-20 23:53:23,108 INFO    HandlerThread:77327 [handler.py:handle_request_defer():154] handle defer: 6
+2022-02-20 23:53:23,108 DEBUG   SenderThread:77327 [sender.py:send_request():249] send_request: defer
+2022-02-20 23:53:23,108 INFO    SenderThread:77327 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-02-20 23:53:23,108 INFO    SenderThread:77327 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-20 23:53:23,161 INFO    Thread-17 :77327 [upload_job.py:push():137] Uploaded file /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/config.yaml
+2022-02-20 23:53:23,163 INFO    Thread-16 :77327 [upload_job.py:push():137] Uploaded file /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/requirements.txt
+2022-02-20 23:53:23,175 INFO    Thread-18 :77327 [upload_job.py:push():137] Uploaded file /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/wandb-summary.json
+2022-02-20 23:53:23,186 INFO    Thread-19 :77327 [upload_job.py:push():137] Uploaded file /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/files/code/_session_history.ipynb
+2022-02-20 23:53:23,215 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-20 23:53:23,215 DEBUG   SenderThread:77327 [sender.py:send_request():249] send_request: poll_exit
+2022-02-20 23:53:23,321 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-20 23:53:23,321 DEBUG   SenderThread:77327 [sender.py:send_request():249] send_request: poll_exit
+2022-02-20 23:53:23,388 INFO    Thread-7  :77327 [sender.py:transition_state():392] send defer: 7
+2022-02-20 23:53:23,389 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: defer
+2022-02-20 23:53:23,389 INFO    HandlerThread:77327 [handler.py:handle_request_defer():154] handle defer: 7
+2022-02-20 23:53:23,389 DEBUG   SenderThread:77327 [sender.py:send_request():249] send_request: defer
+2022-02-20 23:53:23,389 INFO    SenderThread:77327 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-02-20 23:53:23,402 INFO    SenderThread:77327 [sender.py:transition_state():392] send defer: 8
+2022-02-20 23:53:23,403 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: defer
+2022-02-20 23:53:23,403 INFO    HandlerThread:77327 [handler.py:handle_request_defer():154] handle defer: 8
+2022-02-20 23:53:23,403 DEBUG   SenderThread:77327 [sender.py:send_request():249] send_request: defer
+2022-02-20 23:53:23,403 INFO    SenderThread:77327 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-02-20 23:53:23,403 INFO    SenderThread:77327 [sender.py:transition_state():392] send defer: 9
+2022-02-20 23:53:23,403 DEBUG   SenderThread:77327 [sender.py:send():235] send: final
+2022-02-20 23:53:23,404 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: defer
+2022-02-20 23:53:23,404 INFO    HandlerThread:77327 [handler.py:handle_request_defer():154] handle defer: 9
+2022-02-20 23:53:23,404 DEBUG   SenderThread:77327 [sender.py:send():235] send: footer
+2022-02-20 23:53:23,404 DEBUG   SenderThread:77327 [sender.py:send_request():249] send_request: defer
+2022-02-20 23:53:23,404 INFO    SenderThread:77327 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-02-20 23:53:23,424 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-20 23:53:23,424 DEBUG   SenderThread:77327 [sender.py:send_request():249] send_request: poll_exit
+2022-02-20 23:53:23,424 INFO    SenderThread:77327 [file_pusher.py:join():182] waiting for file pusher
+2022-02-20 23:53:23,439 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: get_summary
+2022-02-20 23:53:23,440 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: sampled_history
+2022-02-20 23:53:23,441 DEBUG   HandlerThread:77327 [handler.py:handle_request():131] handle_request: shutdown
+2022-02-20 23:53:23,441 INFO    HandlerThread:77327 [handler.py:finish():739] shutting down handler
+2022-02-20 23:53:24,404 INFO    WriterThread:77327 [datastore.py:close():281] close: /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_235319-dit825yu/run-dit825yu.wandb
+2022-02-20 23:53:24,441 INFO    SenderThread:77327 [sender.py:finish():1075] shutting down sender
+2022-02-20 23:53:24,441 INFO    SenderThread:77327 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-20 23:53:24,441 INFO    SenderThread:77327 [file_pusher.py:join():182] waiting for file pusher
+2022-02-20 23:53:24,442 INFO    MainThread:77327 [internal.py:handle_exit():79] Internal process exited

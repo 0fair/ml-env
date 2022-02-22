@@ -1,0 +1,6 @@
+Train dataset size: 0    136907
+1     37958
+Name: loan_default, dtype: int64
+Validation dataset sizeL 0    45636
+1    12653
+Name: loan_default, dtype: int64

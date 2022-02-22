@@ -1,0 +1,7 @@
+Train dataset size: 0    136907
+1     37958
+Name: loan_default, dtype: int64
+Validation dataset sizeL 0    45636
+1    12653
+Name: loan_default, dtype: int64
+[34m[1mwandb[39m[22m: Generating checksum for up to 10000 objects with prefix "artefacts"... Done. 0.0s

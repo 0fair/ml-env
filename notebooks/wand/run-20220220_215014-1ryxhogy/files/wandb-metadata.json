@@ -1,0 +1,24 @@
+{
+    "os": "macOS-12.1-x86_64-i386-64bit",
+    "python": "3.9.9",
+    "heartbeatAt": "2022-02-20T18:50:15.132421",
+    "startedAt": "2022-02-20T18:50:14.037416",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/Users/den/Library/Jupyter/runtime/kernel-acd55f58-dae9-4e39-bbf2-fe587a0a6ffd.json"
+    ],
+    "state": "running",
+    "program": "ml-env/notebooks/credit_score.ipynb",
+    "root": "/Users/den/my/fast/ml-env",
+    "git": {
+        "remote": "https://github.com/0fair/ml-env.git",
+        "commit": "23944bb0939d0fd411321f92360aa76c145d130d"
+    },
+    "email": null,
+    "host": "MacBook-Pro-Den.local",
+    "username": "den",
+    "executable": "/Users/den/my/fast/ml-env/venv/bin/python"
+}

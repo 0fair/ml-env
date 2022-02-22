@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  python-ssh:
+    container_name: python-ssh
+    build: ./
+    ports:
+      - "22:8022"
+    volumes:
+      - "./:/work"

@@ -1,0 +1,202 @@
+2022-02-20 22:02:13,254 INFO    MainThread:66427 [wandb_setup.py:_flush():75] Loading settings from /Users/den/.config/wandb/settings
+2022-02-20 22:02:13,254 INFO    MainThread:66427 [wandb_setup.py:_flush():75] Loading settings from /Users/den/my/fast/ml-env/notebooks/wandb/settings
+2022-02-20 22:02:13,254 INFO    MainThread:66427 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-02-20 22:02:13,254 INFO    MainThread:66427 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-02-20 22:02:13,254 INFO    MainThread:66427 [wandb_setup.py:_flush():75] Applying login settings: {'api_key': '***REDACTED***', 'base_url': 'http://localhost:8080'}
+2022-02-20 22:02:13,254 INFO    MainThread:66427 [wandb_setup.py:_flush():75] Applying login settings: {'api_key': '***REDACTED***'}
+2022-02-20 22:02:13,254 INFO    MainThread:66427 [wandb_init.py:_log_setup():386] Logging user logs to /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_220213-2dahspcv/logs/debug.log
+2022-02-20 22:02:13,254 INFO    MainThread:66427 [wandb_init.py:_log_setup():387] Logging internal logs to /Users/den/my/fast/ml-env/notebooks/wandb/run-20220220_220213-2dahspcv/logs/debug-internal.log
+2022-02-20 22:02:13,255 INFO    MainThread:66427 [wandb_init.py:_jupyter_setup():336] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x135716790>
+2022-02-20 22:02:13,257 INFO    MainThread:66427 [wandb_init.py:init():420] calling init triggers
+2022-02-20 22:02:13,257 INFO    MainThread:66427 [wandb_init.py:init():425] wandb.init called with sweep_config: {}
+config: {'wandb_nb': 'wandb_credit_soc'}
+2022-02-20 22:02:13,258 INFO    MainThread:66427 [wandb_init.py:init():471] starting backend
+2022-02-20 22:02:13,258 INFO    MainThread:66427 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-02-20 22:02:13,261 INFO    MainThread:66427 [backend.py:ensure_launched():219] starting backend process...
+2022-02-20 22:02:13,268 INFO    MainThread:66427 [backend.py:ensure_launched():224] started backend process with pid: 67562
+2022-02-20 22:02:13,272 INFO    MainThread:66427 [wandb_init.py:init():480] backend started and connected
+2022-02-20 22:02:13,307 INFO    MainThread:66427 [wandb_run.py:_label_probe_notebook():921] probe notebook
+2022-02-20 22:02:13,307 INFO    MainThread:66427 [wandb_run.py:_label_probe_notebook():931] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-02-20 22:02:13,308 INFO    MainThread:66427 [wandb_init.py:init():550] updated telemetry
+2022-02-20 22:02:13,338 INFO    MainThread:66427 [wandb_init.py:init():581] communicating current version
+2022-02-20 22:02:14,615 INFO    MainThread:66427 [wandb_init.py:init():586] got version response 
+2022-02-20 22:02:14,616 INFO    MainThread:66427 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-02-20 22:02:14,665 INFO    MainThread:66427 [wandb_init.py:init():624] starting run threads in backend
+2022-02-20 22:02:14,795 INFO    MainThread:66427 [wandb_run.py:_console_start():1827] atexit reg
+2022-02-20 22:02:14,796 INFO    MainThread:66427 [wandb_run.py:_redirect():1701] redirect: SettingsConsole.WRAP
+2022-02-20 22:02:14,796 INFO    MainThread:66427 [wandb_run.py:_redirect():1738] Wrapping output streams.
+2022-02-20 22:02:14,797 INFO    MainThread:66427 [wandb_run.py:_redirect():1762] Redirects installed.
+2022-02-20 22:02:14,797 INFO    MainThread:66427 [wandb_init.py:init():651] run started, returning control to user process
+2022-02-20 22:02:14,798 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:02:14,798 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:02:15,721 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:02:15,722 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:02:15,722 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:02:16,886 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:02:17,041 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:02:17,041 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:02:19,239 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:02:19,339 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:02:19,339 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:02:19,725 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:02:21,256 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:02:21,256 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:02:23,675 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:02:23,786 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:02:23,786 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:02:38,060 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:02:38,076 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:02:38,076 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:03:00,295 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:03:00,310 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:03:00,310 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:03:33,532 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:03:33,538 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:03:33,538 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:04:00,360 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:04:00,371 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:04:00,371 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:06:33,434 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:06:33,443 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:06:33,444 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:09:10,894 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:09:10,921 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:09:10,921 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:09:18,174 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:09:18,176 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:09:18,177 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:09:26,851 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:09:27,426 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:09:27,426 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:10:36,331 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:10:36,332 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:10:36,332 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:10:36,845 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:10:37,362 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:10:37,362 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:12:09,236 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:12:09,774 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:12:09,774 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:14:11,650 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:14:12,244 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:14:12,244 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:16:26,266 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:16:26,274 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:16:26,275 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:16:29,532 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:16:30,119 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:16:30,119 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:17:39,544 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:17:39,550 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:17:39,550 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:17:40,657 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:17:41,896 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:17:41,896 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:17:43,569 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:17:43,818 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:17:43,818 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:18:10,493 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:18:11,684 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:18:11,684 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:18:21,079 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:18:21,295 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:18:21,295 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:18:52,783 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:18:52,784 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:18:52,784 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:18:54,506 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:18:54,586 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:18:54,586 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:19:15,118 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:19:15,160 INFO    MainThread:66427 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-20 22:19:15,160 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:19:16,029 INFO    MainThread:66427 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-20 22:19:16,059 INFO    MainThread:66427 [wandb_run.py:finish():1468] finishing run den/credit_scorecard/2dahspcv
+2022-02-20 22:19:16,071 INFO    MainThread:66427 [jupyter.py:save_history():458] saving 57 cells to _session_history.ipynb
+2022-02-20 22:19:16,091 INFO    MainThread:66427 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'session_history') code/_session_history.ipynb None
+2022-02-20 22:19:16,136 INFO    MainThread:66427 [jupyter.py:save_ipynb():377] looking for notebook: ml-env/notebooks/credit_score.ipynb
+2022-02-20 22:19:16,137 INFO    MainThread:66427 [wandb_init.py:_jupyter_teardown():318] cleaning up jupyter logic
+2022-02-20 22:19:16,137 INFO    MainThread:66427 [wandb_run.py:_atexit_cleanup():1797] got exitcode: 0
+2022-02-20 22:19:16,138 INFO    MainThread:66427 [wandb_run.py:_restore():1769] restore
+2022-02-20 22:19:16,774 INFO    MainThread:66427 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 2
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 23219323
+  total_bytes: 23219323
+  deduped_bytes: 23216330
+}
+
+2022-02-20 22:19:16,936 INFO    MainThread:66427 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 23219323
+  total_bytes: 24290614
+  deduped_bytes: 23216330
+}
+
+2022-02-20 22:19:17,038 INFO    MainThread:66427 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 24290614
+  total_bytes: 24290614
+  deduped_bytes: 23216330
+}
+
+2022-02-20 22:19:17,143 INFO    MainThread:66427 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 24290614
+  total_bytes: 24290614
+  deduped_bytes: 23216330
+}
+
+2022-02-20 22:19:17,249 INFO    MainThread:66427 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 24290614
+  total_bytes: 24290614
+  deduped_bytes: 23216330
+}
+
+2022-02-20 22:19:17,384 INFO    MainThread:66427 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 24290614
+  total_bytes: 24290614
+  deduped_bytes: 23216330
+}
+
+2022-02-20 22:19:17,501 INFO    MainThread:66427 [wandb_run.py:_wait_for_finish():1929] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+  artifact_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 24290614
+  total_bytes: 24290614
+  deduped_bytes: 23216330
+}
+local_info {
+}
+
+2022-02-20 22:19:18,690 INFO    MainThread:66427 [wandb_run.py:_append_files():2194] logging synced files
